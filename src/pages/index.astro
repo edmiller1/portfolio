@@ -1,14 +1,14 @@
 ---
 import Layout from '../layouts/Layout.astro';
-const pageTitle = "Milky-Way";
+const pageTitle = "Edward Miller";
 ---
 <Layout pageTitle={pageTitle}>
-    <div class="gif">
-        <img width="300" height="259" alt="RaccoonSpaceGif" src="/space.webp"/>
+    <div class="flex justify-center m-8">
+        <img class="rounded-xl " width="300" height="300" alt="Profile Picture" src="/profile.jpg"/>
     </div>
-    <h1>Milky-Way</h1>
-    <span class="badge">Digital Craftsman (Developer)</span>
-    <h2>About</h2>
+    <h1>Edward Miller</h1>
+    <span class="badge">Software Engineer</span>
+    <h2 class="mt-8">About</h2>
     <p>
         Praesent malesuada mi nisi, quis tempus magna venenatis ut.
         Suspendisse tempor sem at scelerisque congue. Curabitur mollis,
@@ -26,11 +26,11 @@ const pageTitle = "Milky-Way";
     </p>
     <div class="center">
         <a href="/works/">
-            <button class="btn">My portfolio</button>
+            <button class="btn mt-5">My portfolio</button>
         </a>
     </div>
     <h2>Skills</h2>
-    <div class="skills center">
+    <div class="flex">
         <img class="skills__img" width="46" height="46" alt="C#" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg"/>
         <img class="skills__img" width="46" height="46" alt="DotNetCore" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg"/>
         <img class="skills__img" width="46" height="46" alt="TypeScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"/>
