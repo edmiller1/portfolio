@@ -4,9 +4,10 @@ interface Props {
     image: string;
     title: string;
     body: string;
+    hasBadge: boolean;
 }
 
-const { url, image, title, body } = Astro.props;
+const { url, image, title, body, hasBadge } = Astro.props;
 ---
 <li class="card">
     <a class="card__link" href={url}>
@@ -19,6 +20,7 @@ const { url, image, title, body } = Astro.props;
         <p class="card__txt">
             {body}
         </p>
+        {hasBadge && <div class="badge w-2/3 mt-1">Work in progress</div>}
     </a>
 </li>
 

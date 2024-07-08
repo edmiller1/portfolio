@@ -6,8 +6,8 @@ const allProjects = await getCollection("projects");
 const pageTitle = "Works";
 ---
 <Layout pageTitle={pageTitle}>
-    <div class="gif">
-        <img width="300" height="259" alt="RaccoonLaptopGif" src="/laptop.webp"/>
+    <div class="flex justify-center m-8">
+        <img class="rounded-xl" width="300" alt="Cat sitting on computer desk" src="/working.jpeg"/>
     </div>
     <h2>Projects</h2>
     <ul role="list" class="link-card-grid">
@@ -16,6 +16,7 @@ const pageTitle = "Works";
             image={card.data.image.url} 
             title={card.data.title} 
             body={card.data.description}
+            hasBadge={card.data.hasBadge}
         />)}
     </ul>
 </Layout>
