@@ -1,20 +1,21 @@
 ---
-title: "Project 4"
-description: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci"
+title: "Christmas Lights App"
+description: "Christmas Lights App is a web and mobile app, that lets users create and explore amazing Christmas decorations."
 image:
-  url: "/GitHub.webp"
-  alt: "GitHub wallpaper"
+  url: "/cla1.png"
+  alt: "Christmas Lights App main image"
 worksImage1:
-  url: "/image-1.webp"
-  alt: "first image of your project."
+  url: "/cla2.png"
+  alt: "Christmas Lights App route planning"
 worksImage2:
-  url: "/image-2.webp"
-  alt: "second image of your project."
+  url: "/cla3.png"
+  alt: "Christmas Lights App explore"
 platform: Web
-stack: Astro, JavaScript
-website: https://astro-milky-way.netlify.app/
-github: https://github.com/ttomczak3/Milky-Way
-hasBadge: false
+stack: Typescript, React, TailwindCSS, NodeJS, Express, GraphQL, PostgresSQL and Cloudflare
+website: "-"
+github: https://github.com/edmiller1/Christmas-Lights-App
+hasBadge: true
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras faucibus a tortor at molestie. Sed pellentesque leo auctor, auctor lorem nec, venenatis risus. Vivamus commodo ipsum vitae orci finibus, vel porta nunc viverra. In hac habitasse platea dictumst. Nunc pretium, ligula ultricies consequat sollicitudin, enim ex ullamcorper nisl.
+Christmas Lights App is a web and mobile app, that lets users create and explore amazing Christmas decorations.
+Users can create, save and share their Christmas decorations with others. The app also has route planning features so users can plan their trips to go a view decorations in person. <br /><br /><i>This is currently still in development.</i>

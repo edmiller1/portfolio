@@ -1,20 +1,20 @@
 ---
-title: "Project 2"
-description: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci"
+title: "Weekly"
+description: "A React drag-and-drop calendar, that helps plan the week ahead."
 image:
-  url: "/GitHub.webp"
-  alt: "GitHub wallpaper"
+  url: "/weekly1.png"
+  alt: "Weekly image 1"
 worksImage1:
-  url: "/image-1.webp"
-  alt: "first image of your project."
+  url: "/weekly2.png"
+  alt: "Weekly image 2"
 worksImage2:
-  url: "/image-2.webp"
-  alt: "second image of your project."
+  url: "/weekly3.png"
+  alt: "Weekly image 3"
 platform: Web
-stack: Astro, JavaScript
-website: https://astro-milky-way.netlify.app/
-github: https://github.com/ttomczak3/Milky-Way
+stack: Javascript, React, Sass
+website: https://weeklie.netlify.app/
+github: https://github.com/edmiller1/Weekly
 hasBadge: false
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras faucibus a tortor at molestie. Sed pellentesque leo auctor, auctor lorem nec, venenatis risus. Vivamus commodo ipsum vitae orci finibus, vel porta nunc viverra. In hac habitasse platea dictumst. Nunc pretium, ligula ultricies consequat sollicitudin, enim ex ullamcorper nisl.
+Weekly is a React drag-and-drop calendar that helps plan the week ahead. It comes with the ability to create new tasks, remove tasks, drag the tasks to specific days of the week, and has a dark/light mode toggle.

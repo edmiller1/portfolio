@@ -6,7 +6,7 @@ image:
   alt: "GitHub wallpaper"
 worksImage1:
   url: "/felinder1.png"
-  alt: "first image of your project."
+  alt: "Felinder app first image."
 # worksImage2:
 #   url: "/felinder2.png"
 #   alt: "second image of your project."
