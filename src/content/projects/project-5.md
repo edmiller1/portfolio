@@ -1,5 +1,5 @@
 ---
-title: "Woofs Welcom"
+title: "Woofs Welcome"
 description: "Woofs Welcome is a dog friendly website and mobile app, that makes it easy to find all the dog friendly places all over New Zealand."
 image:
   url: "/ww-1.png"
